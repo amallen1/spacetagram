@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 const HeaderSection = styled.header`
   background-color: #cfcfcf;
   text-align: center;
-  padding: 1.5625rem 1.125rem;
+  padding: 1rem;
 
   h1 {
     font-size: 20px;
@@ -12,7 +12,6 @@ const HeaderSection = styled.header`
     text-transform: uppercase;
     font-style: italic;
   }
-
 `;
 
 const Header = () => {
