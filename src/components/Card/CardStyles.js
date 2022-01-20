@@ -1,16 +1,15 @@
-import React from "react";
 import styled from "styled-components/macro";
 
-const CardContainer = styled.div`
+export const CardContainer = styled.div`
   margin-bottom: 4rem;
   background-color: silver;
   border-radius: 10px;
   max-width: 325px;
   column-gap: 0.5rem;
-  box-shadow: 3px 5px 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 1px 15px 4px rgba(255, 255, 255, 0.5);
 `;
 
-const ImageContainer = styled.div`
+export const ImageContainer = styled.div`
   border-radius: 10px;
 
   img {
@@ -21,7 +20,7 @@ const ImageContainer = styled.div`
   }
 `;
 
-const TextContainer = styled.div`
+export const TextContainer = styled.div`
   padding: 1.5rem;
 
   h2 {
@@ -32,13 +31,9 @@ const TextContainer = styled.div`
   h3 {
     font-size: 16px;
   }
-
-  p {
-    overflow: scroll;
-  }
 `;
 
-const Row = styled.div`
+export const Row = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,31 +52,7 @@ const Row = styled.div`
   }
 `;
 
-const TextBox = styled.div`
+export const TextBox = styled.div`
   height: 200px;
   overflow: scroll;
 `;
-
-const Card = ({ item }) => {
-  return (
-    <CardContainer>
-      <ImageContainer>
-        <img src={item.url} alt="Nasa" />
-      </ImageContainer>
-
-      <TextContainer>
-        <h2>{item.title}</h2>
-        <Row>
-          <h3>{item.date}</h3>
-          <button>Like</button>
-        </Row>
-
-        <TextBox>
-          <p>{item.explanation}</p>
-        </TextBox>
-      </TextContainer>
-    </CardContainer>
-  );
-};
-
-export default Card;
