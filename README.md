@@ -32,4 +32,4 @@ The requirements for this app includes:
 
 ## Author
 
-- Website - [Add your name here](https://aniyaallen.com/)
+- Website - [Aniya Allen's Portfolio](https://aniyaallen.com/)

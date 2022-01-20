@@ -3,17 +3,15 @@ import styled from "styled-components/macro";
 
 const Button = styled.div`
   border: none;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 10px;
   background-color: gray;
   cursor: pointer;
-
   position: relative;
   color: #ffffff;
   text-align: center;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  text-decoration: none;
   overflow: hidden;
 
   :after {
@@ -21,10 +19,10 @@ const Button = styled.div`
     background: white;
     display: block;
     position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
+    padding-top: 150%;
+    padding-left: 200%;
     margin-left: -50px !important;
-    margin-top: -120%;
+    margin-top: -50%;
     opacity: 0;
     transition: all 0.8s;
   }
@@ -35,17 +33,17 @@ const Button = styled.div`
     opacity: 1;
     transition: 0s;
   }
+
+  :hover {
+    background-color: #a1a1a1;
+  }
 `;
 
 const LikeButton = () => {
   const [liked, setLiked] = useState(false);
 
   const toggleLike = () => {
-    if (liked === false) {
-      setLiked(!liked);
-    } else {
-      setLiked(!liked);
-    }
+    setLiked(!liked);
   };
 
   return (

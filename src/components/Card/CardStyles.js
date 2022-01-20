@@ -33,23 +33,11 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const Row = styled.div`
+export const Info = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-
-  button {
-    border: none;
-    padding: 0.75rem 2rem;
-    border-radius: 10px;
-    background-color: gray;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background-color: lightgray;
-  }
 `;
 
 export const TextBox = styled.div`

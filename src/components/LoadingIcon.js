@@ -8,11 +8,11 @@ const Container = styled.div`
   transform: translate(-50%, -50%);
 `;
 
-const LoadingIconthing = styled.div`
+const Loader = styled.div`
   height: 200px;
   width: 200px;
   border-radius: 100%;
-  border: 10px dashed white;
+  border: 2px dashed white;
   animation: spin 5s linear infinite;
 
   @keyframes spin {
@@ -33,7 +33,7 @@ const TextDiv = styled.div`
 const LoadingIcon = () => {
   return (
     <Container>
-      <LoadingIconthing></LoadingIconthing>
+      <Loader />
       <TextDiv>Loading...</TextDiv>
     </Container>
   );

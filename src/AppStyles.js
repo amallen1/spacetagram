@@ -20,10 +20,3 @@ export const Container = styled.div`
     column-gap: 3rem;
   }
 `;
-export const LoadingContainer = styled.div`
-  height: inherit;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-`;

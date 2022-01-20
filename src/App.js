@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "./components/Card/Card";
 import LoadingIcon from "./components/LoadingIcon";
-import { Container, LoadingContainer } from "./AppStyles";
+import { Container } from "./AppStyles";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -27,9 +27,7 @@ const App = () => {
     <main>
       {loading ? (
         <Container height={"100vh"}>
-          <LoadingContainer>
-            <LoadingIcon />
-          </LoadingContainer>
+          <LoadingIcon />
         </Container>
       ) : (
         <Container>

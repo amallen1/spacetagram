@@ -4,7 +4,7 @@ import {
   ImageContainer,
   TextContainer,
   TextBox,
-  Row,
+  Info,
 } from "./CardStyles";
 import LikeButton from "../LikeButton";
 
@@ -17,10 +17,10 @@ const Card = ({ item }) => {
 
       <TextContainer>
         <h2>{item.title}</h2>
-        <Row>
+        <Info>
           <h3>{item.date}</h3>
           <LikeButton />
-        </Row>
+        </Info>
 
         <TextBox>
           <p>{item.explanation}</p>
