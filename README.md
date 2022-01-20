@@ -4,10 +4,9 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-- [Author](#author)
+  - [Author](#author)
 
 ## Overview
 
@@ -22,7 +21,7 @@ The requirements for this app includes:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Spacetagram](https://spacetagram-123.netlify.app/)
 
 ### Built with
 

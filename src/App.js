@@ -24,7 +24,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <main>
       {loading ? (
         <Container height={"100vh"}>
           <LoadingContainer>
@@ -40,7 +40,7 @@ const App = () => {
           })}
         </Container>
       )}
-    </div>
+    </main>
   );
 };
 
